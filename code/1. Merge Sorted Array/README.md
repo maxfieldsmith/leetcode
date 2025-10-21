@@ -4,6 +4,7 @@ that the last element in each list is the largest (for that list). Therefore,
 if we do a reverse traversal we should grab the largest element from both arrays
 and add it to the last (encountered) index of the resulting list.
 
+```
       num1           num2
 [1, 2, 3, 7, 8]   [3, 6, 9]
              ^  <        ^
@@ -51,3 +52,4 @@ and add it to the last (encountered) index of the resulting list.
  ^
         final
 [ 1, 2, 3, 3, 6, 7, 8, 9]
+```
