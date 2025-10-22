@@ -15,6 +15,6 @@ class Solution(object):
         for num in nums:
             if num != val:
                 nums[not_val] = num
-            not_val += 1
+                not_val += 1 # 
 
         return not_val
